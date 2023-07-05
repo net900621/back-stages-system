@@ -1,0 +1,52 @@
+.wrap {
+  // min-height: 100vh;
+}
+.wrap-header {
+  display: flex;
+  &-logo {
+    width: 46px;
+    height: 46px;
+    margin-top: 12px;
+    margin-left: 36px;
+    border-radius: 46px;
+    background-color: white;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-title {
+    margin-left: 9px;
+    margin-top: 15px;
+    flex: 1;
+    p {
+      font-family: PingFang SC;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #ffffff;
+    }
+  }
+}
+.wrap-content {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: calc(100vh - 93px);
+}
+.side-bar {
+  background-color: white;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.site-layout {
+  background: #ffffff;
+  overflow-y: auto;
+  border-radius: 10px;
+  padding: 0 34px;
+}
+.href-group-inline {
+  display: none !important;
+}

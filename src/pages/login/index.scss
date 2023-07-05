@@ -1,0 +1,95 @@
+.login-container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/images/login_bg.png") no-repeat 0 0;
+}
+#login-box {
+  box-sizing: content-box;
+  box-shadow: 0 2px 19px 10px rgba(0, 0, 0, 0.01);
+  border-radius: 4px;
+  margin-top: 66px;
+  width: 440px;
+  border: 1px solid rgba(232, 232, 232, 0.56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  .web-login-container {
+    width: 326px;
+  }
+  .web-login {
+    .web-login-account-password {
+      height: 350px;
+    }
+    .web-login-mobile-code {
+      height: 350px;
+    }
+    .web-login-mobile-code-register {
+      height: 350px;
+    }
+    .web-login-common-wrapper {
+      padding: 44px 0px 10px;
+      .web-login-common-wrapper__tab {
+        width: 100%;
+        .web-login-tab-list {
+          .web-login-tab-list__item {
+            margin-right: 30px;
+            padding-bottom: 6px;
+            font-size: 20px;
+            font-family: "PingFangSC";
+            font-weight: 400;
+          }
+          .web-login-tab-list__item__active {
+            color: #1fcdb6;
+            border-bottom: 2px solid #1fcdb6;
+            font-weight: 500;
+          }
+        }
+      }
+
+      .web-login-common-wrapper__form {
+        width: 100%;
+        .web-login-button-input__button-text {
+          color: #1fcdb6;
+        }
+        .web-login-button {
+          background-color: #1fcdb6;
+          margin-top: -10px;
+          height: 40px;
+          border-radius: 4px;
+          line-height: 40px;
+        }
+        .web-login-button__disabled {
+          background-color: #ccc;
+        }
+        .web-login-mobile-code__mobile-input-wrapper {
+          margin-top: 24px;
+          .web-login-area-code__select-list-wrapper__list__item__active {
+            color: #1fcdb6;
+          }
+        }
+        .web-login-account-password__account-input-wrapper {
+          margin-top: 24px;
+        }
+        .web-login-mobile-code-register__mobile-input-wrapper {
+          margin-top: 24px;
+        }
+        .web-login-password-reset__account-input-wrapper {
+          margin-top: 24px;
+        }
+
+        .web-login-mobile-code__code-input-wrapper {
+          // width: 326px;
+        }
+      }
+      .web-login-link-list__item__text {
+        color: #bbb;
+        font-size: 14px;
+        margin-top: 14px;
+      }
+    }
+  }
+}

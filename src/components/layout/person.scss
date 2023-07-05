@@ -1,0 +1,26 @@
+.wrap-header {
+  &-person {
+    margin-right: 64px;
+    display: flex;
+    align-items: center;
+  }
+  &-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 14px;
+    background-color: white;
+  }
+  &-name {
+    font-family: PingFang SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+  &-arrow {
+    color: white;
+    margin-left: 6px;
+  }
+}
